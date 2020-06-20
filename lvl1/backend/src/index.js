@@ -80,6 +80,6 @@ app.delete('/projects/:id', validateId, (request, response) => { // É utilizado
     return response.send(204)
 })
 
-app.listen(3333, () => {
+app.listen(3334, () => {
     console.log('Back-end started')
 })
